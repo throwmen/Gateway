@@ -25,7 +25,7 @@ async function bootstrap() {
   const config = new DocumentBuilder()
     .setTitle('API Gateway')
     .setDescription('Gateway API documentation')
-    .setVersion('1.0')
+    .setVersion('1.0')  
     .addTag('gateway')
     .build();
 

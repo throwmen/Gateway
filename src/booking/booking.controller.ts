@@ -17,7 +17,7 @@ import { UpdateBookingDto } from './dto/update-booking.dto';
 import { PaginationDto } from 'src/common/dto/pagination.dto';
 import { NATS_SERVICE } from 'src/config';
 
-@Controller('api/bookings')
+@Controller('/bookings')
 export class BookingsController {
   constructor(@Inject(NATS_SERVICE) private readonly client: ClientProxy) {}
 
