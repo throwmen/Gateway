@@ -22,7 +22,7 @@ Asegúrate de tener instalados los siguientes requisitos antes de ejecutar el pr
 ## **Instalación**
 1. Clona este repositorio:
    ```bash
-   git clone https://github.com/tuusuario/apigateway.git
+   git clone https://github.com/throwmen/Gateway.git
    cd apigateway
     npm install
 ---
